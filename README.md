@@ -62,19 +62,9 @@ Acts as the messaging bridge between Application and Domain logic.
 
 Centralized dependency injection container.
 
-Registers:
+Registers, Repositories, Services, Commands & Command Handlers
 
-DbContext
-
-Repositories
-
-Services
-
-Commands & Command Handlers
-
-MediatR
-
-AutoMapper
+DbContext, MediatR, AutoMapper (the focus for mediator so these are in program.cs)
 
 Ensures clean startup configuration and dependency resolution.
 
@@ -88,23 +78,13 @@ Delegates all work to the Application layer.
 
 Program.cs configures:
 
-EF Core connection
-
-MediatR
-
-Swagger
-
-Dependency Injection
+EF Core connection, MediatR, Swagger, Dependency Injection
 
 8. MVC (UI) Layer
 
 Acts as a client application to consume and test the API.
 
-Contains:
-
-MVC Controllers
-
-Razor Views
+Contains: MVC Controllers, Razor Views, 
 
 Focused on UI rendering and user interaction only.
 
@@ -140,8 +120,6 @@ Control returns back through the layers to the UI.
 
 Notes
 Mediator pattern is the main focus of this project.
-
 Identity is scaffolded only for authentication support and not part of the Clean Architecture flow.
-
 A testing video is included to demonstrate the end-to-end request lifecycle.
 
