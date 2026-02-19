@@ -1,6 +1,6 @@
 # Udemy First Project – Getting Started with .NET Clean Architecture (Single Entity Focus)
 
-🎓 **Udemy Course (source):** https://www.udemy.com/course/getting-started-with-net-core-clean-architecture/
+🎓 **Udemy Course (source):** https://www.udemy.com/course/getting-started-with-net-core-clean-architecture/   
 📜 **Certificate:** https://drive.google.com/file/d/1s9o987DcKpfzg9jvmMEConmgTctSvR_K/view?usp=drive_link  
 🎥 **Testing / Walkthrough Video:** https://drive.google.com/file/d/1CH5f1HBFkDtt5-0H_jpRDOf6E4xp1_QL/view?usp=drive_link  
 
